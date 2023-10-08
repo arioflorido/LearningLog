@@ -23,17 +23,9 @@
                 "POSTGRES_PASSWORD": "postgres",
                 "POSTGRES_HOST": "localhost",
                 "POSTGRES_PORT": "8001",
-                "SECRET_KEY": "ELFILIBUSTERISMO",
                 "EMAIL_BACKEND": "django.core.mail.backends.filebased.EmailBackend",
                 "EMAIL_FILE_PATH": "tmp/email-messages/",
                 "DEBUG": "1",
-
-                // "EMAIL_BACKEND": "django.core.mail.backends.smtp.EmailBackend",
-                // "EMAIL_HOST_USER": "elearning.django@gmail.com",
-                // "EMAIL_HOST_PASSWORD": "tcrfcxgrvylflnth",
-                // "EMAIL_HOST": "smtp.gmail.com",
-                // "EMAIL_PORT": "587",
-                // "EMAIL_USE_TLS": "True",
             },
         }
     ]
