@@ -18,7 +18,7 @@ from django.urls import path, include
 
 # This file represents the project as a whole, the urlpatterns includes sets of URLs from the apps in the project.
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path(r'users/', include('users.urls')),
-    path(r'', include('learning_logs.urls')),
+    path("admin/", admin.site.urls),
+    path(r"users/", include("users.urls")),
+    path(r"", include("learning_logs.urls")),
 ]
