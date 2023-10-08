@@ -1,4 +1,4 @@
-name: AlienInvasion Pylint
+name: LearningLog Pylint
 
 on: [push]
 
