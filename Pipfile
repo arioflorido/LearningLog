@@ -15,6 +15,7 @@ dj-static = "==0.0.6"
 
 [dev-packages]
 pylint = "==3.0.1"
+pylint-django = "==2.5.2"
 black = "==23.9.1"
 
 [requires]
