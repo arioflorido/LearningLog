@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip install pylint
+          pip install pylint pylint-django
 
       - name: Analysing the code with pylint
-        run: pylint --recursive=y . --exit-zero
+        run: pylint --recursive=y  --load-plugins pylint_django --exit-zero .
