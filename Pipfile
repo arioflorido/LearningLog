@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.02"
+django-bootstrap3 = "==12.0.3"
+static3 = "==0.7.0"
+whitenoise = "==5.3.0"
+psycopg2-binary = "==2.9.9"
+psycopg2 = "==2.9.9"
+dj-database-url = "==0.5.0"
+dj-static = "==0.0.6"
+
+[dev-packages]
+pylint = "*"
+black = "==23.9.1"
+
+[requires]
+python_version = "3.8"
