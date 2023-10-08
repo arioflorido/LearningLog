@@ -14,7 +14,7 @@ dj-database-url = "==0.5.0"
 dj-static = "==0.0.6"
 
 [dev-packages]
-pylint = "*"
+pylint = "==3.0.1"
 black = "==23.9.1"
 
 [requires]
